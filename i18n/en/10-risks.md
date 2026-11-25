@@ -20,7 +20,7 @@ Japan Open Chain achieves high security through a defense-in-depth model, and co
 
 **Countermeasures:**
 
-- R&D on quantum-resistant cryptography (implementation planned from v6)
+- R&D on quantum-resistant cryptography (full-scale introduction planned for the v4 Kyoto Hard Fork)
 - Keeping up with the latest security standards
 - Regular security audits and updates
 

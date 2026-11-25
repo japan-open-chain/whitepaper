@@ -6,9 +6,9 @@ navigation:
 
 # 7. Token Sale
 
-## 7.1 Overview of the Token Sale (IEO)
+## 7.1 Results of the Token Sale (IEO)
 
-JOC COIN is a so-called "Type 1 crypto-asset" as defined in Article 2, Paragraph 14, Item 1 of Japan's amended Payment Services Act. The sale of JOC COIN has been completed as described in "Token Sale (IEO Overview)" below.
+The JOC crypto-asset (official name: JOC COIN) is a so-called "Type 1 crypto-asset" as defined in Article 2, Paragraph 14, Item 1 of Japan's amended Payment Services Act. The IEO (Initial Exchange Offering) of JOC was completed in December 2024, and no further token sale is planned as of this paper.
 
 | Item | Details |
 | --- | --- |
@@ -17,15 +17,16 @@ JOC COIN is a so-called "Type 1 crypto-asset" as defined in Article 2, Paragraph
 | Ticker symbol | JOC |
 | Token standard | Japan Open Chain native token (Japan Open Chain is an Ethereum-compatible, consortium-type public chain) |
 | Legal status | So-called "Type 1 crypto-asset" under Article 2, Paragraph 14, Item 1 of the amended Payment Services Act |
-| IEO sale amount | 50,000,000 tokens (5% of total issuance) |
-| IEO operator | Japan Blockchain Foundation Inc. |
-| Sale method | Announced by the IEO operator |
-| Eligible buyers | Account holders of the IEO operator |
-| Schedule | Completed in December 2024 (about JPY 9 billion in applications; about JPY 1.2 billion of JOC sold) |
+| IEO exchange | BitTrade, Inc. |
+| Sale price | JPY 30 per JOC |
+| Priority sale | Started November 20, 2024. A priority allocation for large buyers (JPY 5 million per unit, 100 units planned) sold its planned units |
+| General sale | December 4–17, 2024 (lottery) |
+| Result | About JPY 9 billion in applications; about JPY 1.2 billion of JOC sold |
+| Trading start | December 23, 2024 |
 
 ## 7.2 Use of IEO Proceeds
 
-The funds raised through the IEO are allocated as follows:
+The funds raised through the IEO are used according to the following breakdown, published at the time of the IEO:
 
 - **24%: Protocol and application R&D** — research and development of Japan Open Chain and the applications that run on it.
 - **22%: Marketing** — growing the ecosystem's user base and attracting new content that uses Japan Open Chain.
@@ -33,7 +34,7 @@ The funds raised through the IEO are allocated as follows:
 - **22%: Contractor payments** — payments to external parties needed for the stable operation of Japan Open Chain, such as crypto-asset exchanges, accountants, and lawyers.
 - **15%: Reserve**
 
-The allocation may vary within the following ranges:
+The actual allocation may vary within the following ranges:
 
 - 20–30%: Protocol and application development
 - 20–30%: Marketing
@@ -43,11 +44,11 @@ The allocation may vary within the following ranges:
 
 ## 7.3 Initial Allocation
 
-On Japan Open Chain, all 1 billion JOC COIN were minted when the network started. The minted tokens were offered through an IEO (December 2024) after review by a crypto-asset exchange supervised by JVCEA (Japan Virtual and Crypto assets Exchange Association), a certified payment services association, and by the Financial Services Agency. In the early stage, they are managed by the issuers, centered on Japan Blockchain Foundation Inc. as the token issuer and including the joint operators, and are distributed to the parties that contribute to the community, toward a healthy token economy.
+On Japan Open Chain, all 1 billion JOC were minted when the network started. The minted tokens were offered through an IEO (December 2024) after review by a crypto-asset exchange supervised by JVCEA (Japan Virtual and Crypto assets Exchange Association), a certified payment services association, and by the Financial Services Agency. In the early stage, they are managed by the issuers, centered on Japan Blockchain Foundation Inc. as the token issuer and including the joint operators, and are distributed to the parties that contribute to the community, toward a healthy token economy.
 
 | Allocation | Share | Amount | Purpose |
 | --- | --- | --- | --- |
-| Token sale (IEO) | 5.0% | 50,000,000 JOC | Sold through the token sale (IEO) |
+| Token sale (IEO) | 5.0% | 50,000,000 JOC | Sold in the December 2024 token sale (IEO) |
 | Early supporters | 10.0% | 100,000,000 JOC | Granted to investors and supporters in the project's early stage |
 | Validators | 13.4% | 134,200,000 JOC | Distributed to the Validators that run nodes |
 | Research and development | 19.5% | 195,000,000 JOC | Used for developer incentives |
@@ -55,11 +56,11 @@ On Japan Open Chain, all 1 billion JOC COIN were minted when the network started
 | Ecosystem | 30.1% | 300,800,000 JOC | Used to grow the ecosystem's user base and attract new content that uses Japan Open Chain |
 | Partner rewards | 12.0% | 120,000,000 JOC | Used as incentives for supporters who expand the ecosystem |
 
-Japan Blockchain Foundation Inc. will not mint new tokens. As the operator of the blockchain network and JOC COIN, it audits Validator node operations, supports a healthy token economy, promotes technical research, and reports annually on the network and token to the Financial Services Agency and others. These costs are covered by consortium membership fees from each Validator, token revenue, and so on. Consensus-layer issuance under PoSA ([6.5](06-token-economics.md#65-consensus-layer-issuance)) is a reward the protocol pays directly to Validators, not minting by Japan Blockchain Foundation Inc.
+Japan Blockchain Foundation Inc. will not mint new tokens. As the operator of the blockchain network and the JOC crypto-asset, it audits Validator node operations, supports a healthy token economy, promotes technical research, and reports annually on the network and token to the Financial Services Agency and others. These costs are covered by consortium membership fees from each Validator, token revenue, and so on. Consensus-layer issuance under PoSA ([6.5](06-token-economics.md#65-consensus-layer-issuance)) is a reward the protocol pays directly to Validators, not minting by Japan Blockchain Foundation Inc.
 
 ## 7.4 Lock-up Schedule
 
-Each allocation has a lock-up, designed to avoid excessive selling pressure after the IEO.
+Each allocation has a lock-up so that the IEO (December 2024) is not followed by excessive selling pressure. Periods are counted from the IEO.
 
 | Allocation | Lock-up |
 | --- | --- |
@@ -88,6 +89,6 @@ For detailed monthly release schedules, see the separate materials.
 
 The above is the current lock-up schedule. Because some locked-up grants are not yet confirmed (for example, for future Validators), the release schedule may change. Changes will be announced to the market appropriately through crypto-asset exchanges. Also, not all unlocked tokens will be sold, so unlocking does not mean that all tokens enter circulation at once.
 
-## 7.5 Listing and Liquidity of JOC COIN Worldwide
+## 7.5 Listing and Liquidity of the JOC Crypto-Asset
 
-In the December 2024 IEO of JOC COIN, applications totaled about JPY 9 billion and about JPY 1.2 billion of JOC was sold. After the IEO, JOC COIN was listed on exchanges in Japan and around the world in turn, and it now trades on major domestic exchanges and several overseas crypto-asset exchanges, with high liquidity in Japan and worldwide. We will keep expanding to more exchanges to further improve liquidity.
+In the December 2024 IEO, applications totaled about JPY 9 billion and about JPY 1.2 billion of JOC was sold. After the IEO, trading in JOC began simultaneously on December 23, 2024 on six crypto-asset exchanges: BitTrade in Japan, and Gate.io, MEXC, LBank, XT.com, and Bit2Me (Spain) overseas. We will keep adding exchanges to improve liquidity.

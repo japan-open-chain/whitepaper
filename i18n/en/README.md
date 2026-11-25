@@ -21,7 +21,7 @@ November 2026 edition — Published by Japan Blockchain Foundation Inc.
 | [3. Ethereum and Its Problems](03-ethereum.md#3-ethereum-and-its-problems) | Challenges of permissionless blockchains for business use |
 | [4. About Japan Open Chain](04-japan-open-chain.md#4-about-japan-open-chain) | Concept, PoSA architecture, governance, security, consensus and Authority layers, Validator lifecycle |
 | [5. Ecosystem and Partnerships](05-ecosystem.md#5-ecosystem-and-partnerships) | Projects and partnerships on JOC |
-| [6. Token Economics](06-token-economics.md#6-token-economics) | JOC COIN's role, supply, fees, Validator income, dual-track security |
+| [6. Token Economics](06-token-economics.md#6-token-economics) | The JOC crypto-asset's role, supply, fees, Validator income, dual-track security |
 | [7. Token Sale](07-token-sale.md#7-token-sale) | IEO, use of proceeds, initial allocation, lock-up |
 | [8. Organization and Governance](08-organization.md#8-organization-and-governance) | Validators, operating organization, partners |
 | [9. Roadmap](09-roadmap.md#9-roadmap) | The four phases of the Tokyo Hard Fork, and the hard forks after it |

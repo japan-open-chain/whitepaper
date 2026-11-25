@@ -13,7 +13,7 @@ This chapter describes Japan Open Chain's roadmap in detail. Japan Open Chain ha
 Japan Open Chain evolves through the following five major hard forks:
 
 - **Tokyo Hard Fork (planned September 2026–March 2027)**: migration to PoSA, synchronization with Ethereum "Prague/Electra", aiming for up to 5,000 TPS
-- **Osaka Hard Fork (in planning)**: 500 Standard Validators in addition to the 21 Core Validators; staking of up to 50 million JOC
+- **Osaka Hard Fork (in planning)**: 500 Standard Validators in addition to the Core Validators; a larger staking capacity
 - **Kyoto Hard Fork (in planning)**: stronger quantum-resistant security, Validator decentralization, and disaster resilience
 - **Gifu Hard Fork (in planning)**: lower latency using Japanese technologies such as IOWN; decentralized permanent storage layer
 - **Beyond Gifu (in planning)**: staged introduction of advanced features such as zkRollup, dynamic governance, and cross-chain bridges
@@ -54,17 +54,17 @@ The name comes from Tokyo, Japan's capital and financial center, which was consi
 
 ### 9.2.2 Osaka Hard Fork – Japan Open Chain v3
 
-This hard fork introduces a mechanism through which 500 Standard Validators can participate in addition to the 21 Core Validators. It makes the blockchain's operation more decentralized while keeping governance easy to steer through the Core Validators, so the chain becomes safer and more secure.
+This hard fork introduces a mechanism through which 500 Standard Validators can participate in addition to the Core Validators. It makes the blockchain's operation more decentralized while keeping governance easy to steer through the Core Validators, so the chain becomes safer and more secure.
 
 Key features:
 
-- Decentralization through multi-tier Validators (Core 21, Standard 500)
+- Decentralization through multi-tier Validators (Core and Standard Validators)
 - Entry of domestic and overseas Validators through NFT certification plus staking
-- A staking capacity of up to 50 million JOC through a deposit of 100,000 JOC (planned)
+- A larger staking capacity through deposits of JOC (the required amount and the size of the capacity are to be decided)
 
 Standard Validators are approved after review by the Consortium Owner, through a certification NFT issued to organizations that meet certain conditions and a stake of at least a certain amount of JOC.
 
-After this hard fork, Validators from outside Japan can join, not only the domestic Core Validators, greatly improving the network's decentralization and fault tolerance. In addition, a fee-sharing model will expand staking demand and increase potential demand from JOC COIN investors. Because Core Validators, who vote on major decisions, are limited to Japanese companies, Japan's political and economic stability continues to underpin the chain's governance.
+After this hard fork, Validators from outside Japan can join, not only the domestic Core Validators, greatly improving the network's decentralization and fault tolerance. In addition, a fee-sharing model will expand staking demand and increase potential demand for the JOC crypto-asset. Because Core Validators, who vote on major decisions, are limited to Japanese companies, Japan's political and economic stability continues to underpin the chain's governance.
 
 The name comes from Osaka, where the 2025 World Expo brought pavilions from around the world to Japan, evoking a future in which Validators from around the world take part.
 
@@ -72,7 +72,7 @@ The name comes from Osaka, where the 2025 World Expo brought pavilions from arou
 
 This hard fork advances the design for "a chain that lasts 1,000 years", a goal Japan Open Chain has long held, to carry data across generations.
 
-To that end, drawing on research in the Ethereum community on quantum resistance, it begins serious work on resistance to quantum computers. At the same time, it further decentralizes the Validator community's operation and the geographic distribution of servers within Japan, aiming for a network that is robust in disasters.
+To that end, drawing on research in the Ethereum community on quantum resistance, it begins serious work on resistance to quantum computers. Taking into account developments in Ethereum's "Lean Ethereum" (such as hash-based quantum-resistant signatures), it will consider how JOC should follow them. At the same time, it further decentralizes the Validator community's operation and the geographic distribution of servers within Japan, aiming for a network that is robust in disasters.
 
 Key features:
 
@@ -110,15 +110,11 @@ Expected hard forks:
 
 *Plans are subject to change.
 
-## 9.3 Renaming the Native Token (JOC COIN)
-
-On September 1, 2025, as part of a brand strategy to raise the ecosystem's international recognition, the native token long known as "Japan Open Chain Token" was renamed to the easier-to-say "JOC COIN". The new name is more intuitive and memorable for developers, users, and investors; the word "COIN" makes its position as a means of payment, an asset, and an investment clear; and removing the geographic element will further accelerate its penetration into global markets, as with Bitcoin, which is increasingly held as a strategic reserve.
-
-## 9.4 Development Roadmap
+## 9.3 Development Roadmap
 
 Japan Open Chain will invest in technical research for the advancement of blockchain and web3 technology.
 
-### 9.4.1 Technical Research
+### 9.3.1 Technical Research
 
 - **Protocol improvements:** higher TPS, quantum resistance, greater robustness
 - **Tools and applications:** wallet technology and applications for better usability; support for smart accounts such as EIP-4337
@@ -130,29 +126,29 @@ On top of PoSA, the following directions are also under consideration (they do n
 - **DVT (Distributed Validator Technology).** Threshold signing across multiple operator-controlled machines would reduce single-machine availability risk. The `WithdrawReceiver` model is DVT-compatible: a Validator's signing keys can be split without changing the on-chain accounting.
 - **Restaking primitives.** The `WithdrawReceiver` contract is a natural integration point for restaking: Validators could opt in to securing additional services with their staked JOC.
 
-### 9.4.2 Tool Development
+### 9.3.2 Tool Development
 
 - Adoption of tools that leverage Ethereum compatibility
 - Development of wallets, authentication methods, and NFT management tools for mass adoption of web3 solutions
 
-## 9.5 Project Roadmap
+## 9.4 Project Roadmap
 
 We plan to advance projects with many companies and web3 businesses to develop Japan Open Chain.
 
-### 9.5.1 Stablecoin Issuance
+### 9.4.1 Stablecoin Issuance
 
 - Proof-of-concept trials of stablecoins denominated in Japanese yen and foreign currencies are under way with Kiraboshi Bank, Minna Bank, Shikoku Bank, and other financial institutions
 - Trials will also proceed with businesses that want to use stablecoins for cheaper fees and instant settlement, in web3 payments such as NFT sales and in existing payments
 - This will create an environment in which companies can easily enter web3 business, for example by buying and selling NFTs without going through crypto-assets
 
-### 9.5.2 Expanding Alliance Partners
+### 9.4.2 Expanding Alliance Partners
 
 - Partnerships with and listings on crypto-asset exchanges
 - Stronger cooperation with global node providers and NFT marketplaces
 - Collaboration with cross-chain protocols
 - Collaboration with NFT and DeFi partners
 
-### 9.5.3 Operating Phases
+### 9.4.3 Operating Phases
 
 - **Phases 0–2: Launch phases** — network development, testnet operation, mainnet launch, and so on. These phases are complete.
 - **Phase 3: Public phase**
@@ -162,6 +158,6 @@ We plan to advance projects with many companies and web3 businesses to develop J
   - Goal: grow the ecosystem's scale and decentralization, and improve the robustness and stability of the network
   - Approach: partner with web3 application providers worldwide, develop tools for usability, conduct R&D for network stability and robustness, strengthen governance, and more.
 
-## 9.6 Outlook
+## 9.5 Outlook
 
 With "full Ethereum compatibility × trust from Japan" as its strength, Japan Open Chain aims to become the world-standard next-generation financial infrastructure by 2030. By combining robust operation by Japanese companies with advanced technology, we will build a safe, secure, and sustainable global chain.

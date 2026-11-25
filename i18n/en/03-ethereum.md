@@ -75,3 +75,5 @@ In many countries, the legal status of permissionless blockchains is not yet cle
 Solving this requires international norms and legal frameworks for blockchain, clear accountability of operators, and clear data-protection policies.
 
 At present, using a permissionless blockchain may pose significant legal-stability problems for companies.
+
+Ethereum itself is also working to address these issues. "Lean Ethereum", proposed in 2025 by researchers at the Ethereum Foundation, sets out as long-term goals much faster finality, quantum resistance through hash-based signatures, and more efficient verification through zero-knowledge proofs. The issues described in this chapter refer to Ethereum as of November 2026.

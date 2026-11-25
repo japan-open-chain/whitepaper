@@ -12,7 +12,7 @@ To solve the problems above, Japan Open Chain was developed as Ethereum-compatib
 
 Japan Open Chain is an Ethereum-compatible, consortium-type public chain that any user in the world can use. It is fully compatible with Ethereum and adopts Proof of Staked Authority (PoSA), under which the consortium controls Validator entry.
 
-JOC launched with Proof of Authority (PoA) and achieved much faster transaction speeds than Ethereum mainnet. Under PoA, who the Validators are is what matters. Japan Open Chain addressed PoA's weakness by having major Japanese companies with high social trust act as Validators. In addition to companies such as Dentsu, Hatena, and pixiv, universities and web3/crypto companies and startups continue to join.
+JOC launched with Proof of Authority (PoA) and achieved much faster transaction speeds than Ethereum mainnet. Under PoA, who the Validators are is what matters. Japan Open Chain addressed PoA's weakness by having major Japanese companies with high social trust act as Validators. Its Validators are trustworthy Japanese companies, including listed companies.
 
 PoSA keeps this operation by trusted Japanese companies while adopting the same Proof of Stake mechanism as Ethereum. Each Validator puts up stake, and the protocol holds misbehaving Validators accountable through slashing.
 
@@ -55,17 +55,13 @@ The Validator Client runs on servers that each Validator manages itself, and the
 
 Ethereum is the blockchain network with the largest user base in the world. Japan Open Chain focuses on compatibility with this vast ecosystem and uses, as they are, "Go Ethereum (Geth)", the most popular Ethereum node software, and "Lighthouse", an Ethereum consensus client. Applications and tools that run on Ethereum therefore run on Japan Open Chain without problems, and software development benefits greatly from the Ethereum community.
 
-Japan Open Chain is essentially part of the Ethereum community, and has been assigned number 81 as an EVM-compatible chain recognized by the Ethereum Foundation.
+Japan Open Chain is essentially part of the Ethereum community, and is registered as Chain ID 81 in Ethereum's chain ID registry (chainlist).
 
 ### 4.3.2 Migration from Proof of Authority (PoA) to Proof of Staked Authority (PoSA)
 
 Japan Open Chain is migrating from Clique PoA to the more advanced Proof of Staked Authority (PoSA). The Tokyo Hard Fork (v2) introduces Ethereum's beacon chain technology and manages Validators through smart contracts. The migration is delivered in four phases ([9.2.1](09-roadmap.md#921-tokyo-hard-fork--japan-open-chain-v2-2026-2027)).
 
-**What PoA offered, and its limits.** PoA suited the network's launch period: block times were stable, each Validator needed only one client (Geth), and every block signer was an identified Japanese company. As the network matured, however, these limits became clear:
-
-- **No economic penalty for misbehavior.** A Signer loses nothing on-chain for double-signing or going offline for a long time. Deterrence relies on reputation and contracts.
-- **The protocol does not mark finality.** A block is final once all 20 Signer nodes (all of them publish their data) hold the same block. But there is no mechanism (no `finalized` tag) that marks it, so finality has to be checked against the 20 Signer nodes (a confirmation count can be used instead).
-- **Changing Validators depends on manual coordination.** Adding or removing a Signer needs a vote by a majority of existing Signers and coordination among the parties.
+**What PoA offered, and why JOC is moving on.** PoA suited the network's launch period: block times were stable, each Validator needed only one client (Geth), and every block signer was an identified Japanese company. After Ethereum moved to PoS, however, PoA (Clique) fell out of Ethereum's official support, and Geth stopped supporting Clique. Staying on PoA was therefore affecting JOC's compatibility with Ethereum, and this is the main reason for the move to PoSA.
 
 **Design goals.** PoSA is designed to meet four goals:
 
@@ -88,9 +84,9 @@ A permissionless, Ethereum-style PoS meets (1), (2), and (4), but not (3), becau
 
 **From the Osaka Hard Fork.** The planned Osaka Hard Fork (v3) introduces a three-tier Validator system:
 
-- Core Validators (21 companies): trusted Japanese companies and organizations that take part in technical and legal governance
-- Standard Validators (up to 500 companies): 100,000 JOC stake required; take part in block production
-- Community Validators (unlimited): 100,000 JOC stake required; take part in network monitoring and governance votes
+- Core Validators: trustworthy Japanese companies and organizations, including listed companies, that take part in technical and legal governance
+- Standard Validators (up to 500 companies): a stake of JOC required (amount to be decided); take part in block production
+- Community Validators (unlimited): a stake of JOC required (amount to be decided); take part in network monitoring and governance votes
 
 This tiered approach balances speed and decentralization, and lets more participants contribute to the network while maintaining the reliable finality that the financial industry requires ([4.6.2](#462-fork-choice-and-finality)).
 
@@ -105,11 +101,11 @@ Japan Open Chain raises its transaction throughput step by step as the technolog
 - v5 Gifu Hard Fork (in planning): lower latency using Japanese technologies such as IOWN
 - Beyond Gifu (in planning): targeting tens of thousands of transactions per second through native zkRollup integration
 
-Whereas Ethereum itself handles about 25 transactions per second on average ([3.2.1](03-ethereum.md#321-slow-speed)), Japan Open Chain aims to sustain 5,000 TPS. By also looking toward a technical potential of 100,000 TPS or more, it will be able to handle growth in transactions over the medium to long term.
+Whereas Ethereum itself handles about 25 transactions per second on average ([3.2.1](03-ethereum.md#321-slow-speed)), Japan Open Chain aims to sustain 5,000 TPS. The theoretical figure of 100,000 TPS is based on Nethermind, one of the execution clients JOC uses, reaching about 100,000 transactions per second in a local environment. On a real network, communication and consensus add overhead, so we expect throughput in the tens of thousands of TPS. Because JOC has a small number of Validators, this overhead stays small, which lets JOC handle growth in transactions over the medium to long term.
 
-### 4.3.4 JOC COIN
+### 4.3.4 The JOC Crypto-Asset
 
-The native crypto-asset "JOC COIN" is used as the fee token required to operate Japan Open Chain. It also serves as payment for services on the network, as Validator rewards, and, under PoSA, as Validator stake ([6](06-token-economics.md#6-token-economics)). This paper writes the unit as **JOC**.
+The native crypto-asset JOC (official name: JOC COIN) is used as the fee token required to operate Japan Open Chain. It also serves as payment for services on the network, as Validator rewards, and, under PoSA, as Validator stake ([6](06-token-economics.md#6-token-economics)). It is not a stablecoin; its price moves with the market. This paper writes the unit as **JOC**.
 
 ### 4.3.5 Legal Stability
 
@@ -198,7 +194,7 @@ Like Ethereum, JOC combines **LMD-GHOST** (choosing which chain is canonical) an
 
 A finalized block cannot be reverted unless one-third or more of the stake is slashed ([4.5.3](#453-properties-posa-guarantees)).
 
-**Finality takes about 2 epochs, or about 2.7 minutes.** This is shorter than Ethereum mainnet's roughly 13 minutes because JOC's slots and epochs are shorter.
+**Finality takes about 2 epochs, or about 2.7 minutes.** This is shorter than Ethereum mainnet's roughly 13 minutes (as of November 2026) because JOC's slots and epochs are shorter.
 
 ### 4.6.3 Validator Duties, Rewards, and Penalties
 

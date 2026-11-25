@@ -8,11 +8,11 @@ navigation:
 
 JOC's economic design is calibrated for a consortium-scale Validator set rather than for permissionless participation.
 
-## 6.1 The Role and Benefits of JOC COIN
+## 6.1 The Role and Benefits of the JOC Crypto-Asset
 
-JOC COIN, at the center of Japan Open Chain, is the fee currency required for the many kinds of transactions on the platform: transfers, NFT minting, smart-contract deployment, and more. In other words, anyone transacting on Japan Open Chain must pay the fee in JOC COIN. The fee can also be paid by someone else, so in some cases the parties to a transaction need not bear it.
+The JOC crypto-asset, at the center of Japan Open Chain, is the fee currency required for the many kinds of transactions on the platform: transfers, NFT minting, smart-contract deployment, and more. In other words, anyone transacting on Japan Open Chain must pay the fee in JOC. The fee can also be paid by someone else, so in some cases the parties to a transaction need not bear it.
 
-Under PoSA, JOC COIN has three uses:
+Under PoSA, the JOC crypto-asset has three uses:
 
 | Use | Description |
 | --- | --- |
@@ -20,15 +20,15 @@ Under PoSA, JOC COIN has three uses:
 | Validator rewards | The Validator that proposes a block receives the transaction fees (priority fees). Consensus-layer issuance ([6.5](#65-consensus-layer-issuance)) is added to rewards |
 | Validator stake | 32 JOC per Validator, subject to slashing |
 
-Validators verify the authenticity of transactions and propose and attest to new blocks. Receiving JOC COIN in return forms the foundation of this ecosystem.
+Validators verify the authenticity of transactions and propose and attest to new blocks. Receiving JOC in return forms the foundation of this ecosystem.
 
-As on Ethereum, JOC COIN's fee mechanism adjusts dynamically with market supply and demand, keeping it fair and transparent. When demand for Japan Open Chain grows, JOC COIN rises, and when demand overheats, the rising price helps restrain traffic. This balance of supply and demand keeps Japan Open Chain's traffic stable.
+As on Ethereum, the JOC fee mechanism adjusts dynamically with market supply and demand, keeping it fair and transparent. When demand for Japan Open Chain grows, the price of JOC rises, and when demand overheats, the rising price helps restrain traffic. This balance of supply and demand keeps Japan Open Chain's traffic stable.
 
-JOC COIN is also used to fund grants and financing for contributors and external developers who are expected to help the Japan Open Chain ecosystem grow, encouraging the development of new applications and DApps. Developers who receive JOC COIN can expect its value to rise, like shares or stock options, if their work expands the ecosystem.
+The JOC crypto-asset is also used to fund grants and financing for contributors and external developers who are expected to help the Japan Open Chain ecosystem grow, encouraging the development of new applications and DApps. Developers who receive JOC can expect its value to rise, like shares or stock options, if their work expands the ecosystem.
 
 ## 6.2 Total Supply
 
-The total supply of JOC COIN is **1 billion JOC**, all minted at network creation (genesis). PoA (Clique) has no block reward, so supply did not increase during the PoA period.
+The total supply of the JOC crypto-asset is **1 billion JOC**, all minted at network creation (genesis). PoA (Clique) has no block reward, so supply did not increase during the PoA period.
 
 From PoSA onward, total supply is:
 
@@ -48,7 +48,7 @@ JOC fees work as they do on Ethereum (EIP-1559).
 
 ### 6.3.1 Gas
 
-Gas pays for transactions on the Japan Open Chain blockchain. The amount needed depends on how complex the transaction is. A simple JOC COIN transfer needs 21,000 gas; more complex transactions (for example, those used in DeFi) can need more than 1,000,000 gas.
+Gas pays for transactions on the Japan Open Chain blockchain. The amount needed depends on how complex the transaction is. A simple JOC transfer needs 21,000 gas; more complex transactions (for example, those used in DeFi) can need more than 1,000,000 gas.
 
 ### 6.3.2 Gas Price
 
@@ -61,7 +61,7 @@ The amount of gas a transaction needs is fixed, but the gas price varies. The us
 
 ## 6.4 Relationship with Stablecoins
 
-Stablecoins are planned to be issued on Japan Open Chain under the ERC-20 standard. JOC COIN is used as the fee currency for stablecoin transfers, so every time a stablecoin is issued and transferred on Japan Open Chain, JOC COIN is consumed.
+Stablecoins are planned to be issued on Japan Open Chain under the ERC-20 standard. The JOC crypto-asset is used as the fee currency for stablecoin transfers, so every time a stablecoin is issued and transferred on Japan Open Chain, JOC is consumed.
 
 Since stablecoins are expected to be at the center of all web3 financial transactions, how much stablecoin is issued on a blockchain affects the price of that blockchain's fee currency, JOC.
 
@@ -101,7 +101,7 @@ The ratio between the two streams depends on the number of Validators and on tra
 | Minimum genesis Validators | 8 | Below this, the chain does not start |
 | Slot | 5 seconds | Preserves the PoA-era block time |
 | Epoch | 16 slots (80 seconds) | Gnosis preset; consistent with a 5-second slot |
-| Finality | ~2 epochs (about 2.7 minutes) | Faster than Ethereum mainnet's ~13 minutes, because slots and epochs are shorter |
+| Finality | ~2 epochs (about 2.7 minutes) | Faster than Ethereum mainnet's ~13 minutes (as of November 2026), because slots and epochs are shorter |
 | `BASE_REWARD_FACTOR` | 25 | Gnosis preset (64 on Ethereum mainnet) |
 
 The 32 JOC stake was chosen less for its size as capital than so that JOC can use the same tools and security model as Ethereum. JOC's security does not come from the size of individual stakes; it comes from the combination of:

@@ -8,7 +8,7 @@ navigation:
 
 ## 8.1 Validators and Their Role
 
-Japan Open Chain's Validators are selected from major Japanese companies, starting with Dentsu, Hatena, and pixiv. They are responsible for the stability of the network and the correctness of transactions, and as organizations deeply rooted in Japan's business ecosystem, they strengthen the trustworthiness of Japan Open Chain. To promote diversity and sustained growth of the ecosystem, trusted financial groups, media companies, and other crypto-related companies and startups are also expected to join as Validators.
+Japan Open Chain's Validators are selected from trustworthy Japanese companies, including listed companies. They are responsible for the stability of the network and the correctness of transactions, and as organizations deeply rooted in Japan's business ecosystem, they strengthen the trustworthiness of Japan Open Chain. To promote diversity and sustained growth of the ecosystem, trusted financial groups, media companies, and other crypto-related companies and startups are also expected to join as Validators.
 
 Under PoSA, each Validator stakes 32 JOC and performs the duties of attestation, block proposal, and sync-committee participation ([4.6.3](04-japan-open-chain.md#463-validator-duties-rewards-and-penalties)). Validator entry is controlled by the consortium ([4.7](04-japan-open-chain.md#47-authority-layer)), and malicious signatures are slashed by the consensus layer.
 
