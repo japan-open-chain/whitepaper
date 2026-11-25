@@ -1,12 +1,12 @@
 ---
-title: Tokyo Hard Fork Whitepaper
+title: Japan Open Chain Whitepaper
 navigation:
   order: 100
 ---
 
-# Tokyo Hard Fork Whitepaper
+# Japan Open Chain Whitepaper
 
-## Japan Open Chain PoSA — A Consortium-Governed Proof-of-Stake Network
+## Japan Open Chain PoSA — A Consortium-Operated Proof-of-Stake Network
 
 November 2026 edition — Published by Japan Blockchain Foundation Inc.
 

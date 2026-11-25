@@ -26,25 +26,13 @@ The JOC crypto-asset (official name: JOC COIN) is a so-called "Type 1 crypto-ass
 
 ## 7.2 Use of IEO Proceeds
 
-The funds raised through the IEO are used according to the following breakdown, published at the time of the IEO:
+The funds raised through the IEO held in December 2024 were used according to the use-of-proceeds plan published at the time of the IEO, and have been fully used.
 
-- **24%: Protocol and application R&D** — research and development of Japan Open Chain and the applications that run on it.
-- **22%: Marketing** — growing the ecosystem's user base and attracting new content that uses Japan Open Chain.
-- **17%: Operations** — compensation for operating staff.
-- **22%: Contractor payments** — payments to external parties needed for the stable operation of Japan Open Chain, such as crypto-asset exchanges, accountants, and lawyers.
-- **15%: Reserve**
-
-The actual allocation may vary within the following ranges:
-
-- 20–30%: Protocol and application development
-- 20–30%: Marketing
-- 12–21%: Operations
-- 18–25%: Contractor payments
-- 10–20%: Reserve
+They were used for research and development of Japan Open Chain, growth of the ecosystem, marketing, building the network's operating structure, and similar purposes.
 
 ## 7.3 Initial Allocation
 
-On Japan Open Chain, all 1 billion JOC were minted when the network started. The minted tokens were offered through an IEO (December 2024) after review by a crypto-asset exchange supervised by JVCEA (Japan Virtual and Crypto assets Exchange Association), a certified payment services association, and by the Financial Services Agency. In the early stage, they are managed by the issuers, centered on Japan Blockchain Foundation Inc. as the token issuer and including the joint operators, and are distributed to the parties that contribute to the community, toward a healthy token economy.
+On Japan Open Chain, all 1 billion JOC were minted when the network started. The minted tokens were offered through an IEO (December 2024) after review by a crypto-asset exchange. In the early stage, they are managed by the issuers, centered on Japan Blockchain Foundation Inc. as the token issuer and including the joint operators, and are distributed to the parties that contribute to the community, toward a healthy token economy.
 
 | Allocation | Share | Amount | Purpose |
 | --- | --- | --- | --- |
@@ -91,4 +79,10 @@ The above is the current lock-up schedule. Because some locked-up grants are not
 
 ## 7.5 Listing and Liquidity of the JOC Crypto-Asset
 
-In the December 2024 IEO, applications totaled about JPY 9 billion and about JPY 1.2 billion of JOC was sold. After the IEO, trading in JOC began simultaneously on December 23, 2024 on six crypto-asset exchanges: BitTrade in Japan, and Gate.io, MEXC, LBank, XT.com, and Bit2Me (Spain) overseas. We will keep adding exchanges to improve liquidity.
+In the December 2024 IEO, applications totaled about JPY 9 billion and about JPY 1.2 billion of JOC was sold.
+
+After the IEO, trading in JOC began simultaneously on December 23, 2024 on six crypto-asset exchanges: BitTrade in Japan, and Gate.io, MEXC, LBank, XT.com, and Bit2Me (Spain) overseas.
+
+For where JOC is currently traded, see the Japan Open Chain official website and the announcements of each crypto-asset exchange.
+
+Through wider use of the network and growth of the ecosystem, Japan Open Chain aims to expand the opportunities to use JOC, its native crypto-asset.

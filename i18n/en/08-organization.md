@@ -14,11 +14,21 @@ Under PoSA, each Validator stakes 32 JOC and performs the duties of attestation,
 
 ## 8.2 Japan Open Chain's Operating Organization and Its Responsibilities
 
-Japan Blockchain Foundation Inc. is the operator of the Japan Open Chain consortium and sits at its center. It sets up and runs the Japan Open Chain secretariat and works for the stable operation of the community. Under PoSA, it operates the Safe Multisig that owns the Authority layer's `ConsortiumManager`, and is responsible for registering Validators, executing deposits, and forced exits ([4.7](04-japan-open-chain.md#47-authority-layer)).
+Japan Open Chain is a consortium-type public blockchain that multiple independent companies and organizations join as Validators and maintain and operate together.
 
-Japan Blockchain Foundation Inc. conducted the IEO after review by a crypto-asset exchange supervised by JVCEA (Japan Virtual and Crypto assets Exchange Association), a certified payment services association, and by the Financial Services Agency. Since the IEO, it has been continuously monitored by that exchange on its disclosure of project progress, its proper management of the funds raised, and similar matters.
+Japan Blockchain Foundation Inc. led the launch of Japan Open Chain. As the operating company, it runs the Japan Open Chain secretariat, coordinates among Validators, checks the network's operating status, promotes technical development and research, grows the ecosystem, and promotes use by companies and organizations.
 
-For details, see the official website: https://www.jbfd.org/
+Each Validator operates its node on its own responsibility and produces and verifies blocks according to the consensus protocol.
+
+Under PoSA, Japan Blockchain Foundation Inc. operates the Safe Multisig that manages the Authority layer's `ConsortiumManager`, and carries out the operational management of registering Validators, executing deposits, forced exits, and similar tasks ([4.7](04-japan-open-chain.md#47-authority-layer)).
+
+New JOC is created automatically as Validator rewards under the consensus protocol; Japan Blockchain Foundation Inc. does not issue additional JOC at its discretion.
+
+Japan Blockchain Foundation Inc. conducted the IEO in December 2024 after review by a crypto-asset exchange. Since the IEO, it has responded to continuous monitoring by the exchanges involved and works to disclose project progress and other important matters appropriately.
+
+Going forward, it will decentralize the consortium-centered governance step by step, while keeping the network stable and continuous.
+
+For details on Japan Blockchain Foundation Inc., see the official website: [https://www.jbfd.org/](https://www.jbfd.org/)
 
 ## 8.3 Japan Open Chain Partners
 

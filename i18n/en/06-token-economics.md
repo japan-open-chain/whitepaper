@@ -28,7 +28,11 @@ The JOC crypto-asset is also used to fund grants and financing for contributors 
 
 ## 6.2 Total Supply
 
-The total supply of the JOC crypto-asset is **1 billion JOC**, all minted at network creation (genesis). PoA (Clique) has no block reward, so supply did not increase during the PoA period.
+The initial total supply of the JOC crypto-asset was **1 billion JOC**, all minted at network creation (genesis). The former PoA (Clique) had no block reward, so supply did not increase during the PoA period.
+
+With the move to PoSA in the Tokyo Hard Fork, new JOC is created automatically as Validator rewards under the consensus-layer protocol. The former fixed supply cap is therefore removed, and total supply changes with protocol issuance, burns, and similar factors.
+
+This issuance follows a predefined protocol; Japan Blockchain Foundation Inc. does not issue additional JOC at its discretion.
 
 From PoSA onward, total supply is:
 

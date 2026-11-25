@@ -1,12 +1,12 @@
 ---
-title: Tokyo Hard Fork Whitepaper
+title: Japan Open Chain Whitepaper
 navigation:
   order: 100
 ---
 
-# Tokyo Hard Fork Whitepaper
+# Japan Open Chain Whitepaper
 
-## Japan Open Chain PoSA — コンソーシアムが統制する Proof of Stake ネットワーク
+## Japan Open Chain PoSA — コンソーシアムによる共同運営型 Proof of Stake ネットワーク
 
 2026 年 11 月版　発行：日本ブロックチェーン基盤株式会社
 
